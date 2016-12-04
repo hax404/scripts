@@ -2,7 +2,7 @@
 
 sleep 1
 DISPLAY=:0 su georg -c "xrandr --output HDMI2 --off"
-DISPLAY=:0 su georg -c "randr --output HDMI3 --off"
+DISPLAY=:0 su georg -c "xrandr --output HDMI3 --off"
 DISPLAY=:0 su georg -c "xrandr --output LVDS1 --auto"
 
 /usr/bin/netctl stop enp0s25-dhcp
